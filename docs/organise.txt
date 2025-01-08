@@ -1,0 +1,15 @@
+max170x-battery-monitor-esp8266/
+├── src/
+│   ├── main.ino          # Code principal pour Arduino IDE
+│   ├── max170x.cpp       # Code de gestion du capteur (si séparé en librairie)
+│   ├── max170x.h         # Header pour le capteur
+├── examples/
+│   ├── basic_reading.ino # Exemple simple pour tester la lecture de la batterie
+│   ├── advanced_features.ino # Exemple avec des fonctionnalités avancées
+├── docs/
+│   ├── README.md         # Documentation technique
+│   ├── schematic.png     # Schéma de connexion entre MAX170X et ESP8266
+├── .gitignore            # Ignorer les fichiers inutiles (ex. .DS_Store, .vscode/)
+├── LICENSE               # Licence du projet
+├── README.md             # Présentation du projet
+└── platformio.ini        # Configuration PlatformIO (si utilisée)
