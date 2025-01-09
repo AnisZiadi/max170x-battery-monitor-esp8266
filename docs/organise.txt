@@ -1,8 +1,11 @@
 max170x-battery-monitor-esp8266/
 ├── src/
-│   ├── main.ino          # Code principal pour Arduino IDE
-│   ├── max170x.cpp       # Code de gestion du capteur (si séparé en librairie)
-│   ├── max170x.h         # Header pour le capteur
+│   ├── main.ino            # Code principal pour Arduino IDE
+│   ├── max1704x.cpp        # Code de gestion du capteur (si séparé en librairie)
+│   ├── max1704x.h          # Header pour le capteur
+│   ├── max17043.h          # Header pour le capteur
+│   ├── max17044.h          # Header pour le capteur
+│
 ├── examples/
 │   ├── basic_reading.ino # Exemple simple pour tester la lecture de la batterie
 │   ├── advanced_features.ino # Exemple avec des fonctionnalités avancées
