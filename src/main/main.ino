@@ -29,8 +29,9 @@ void setup() {
     Serial.println("MAX17043 NOT found.\n");
     while (true) {}
   }
-  FuelGauge.reset();
-  delay(250);
+  //FuelGauge.reset();
+  //delay(250);
+  // Recalbrer le MAX17043
   FuelGauge.quickstart();
   delay(125);
 
